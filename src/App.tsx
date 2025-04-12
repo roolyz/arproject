@@ -165,8 +165,7 @@ function App() {
           <p className="text-xl text-gray-300 leading-relaxed">
             Kita tuh spesialis duplikasi kunci yang udah trusted banget! 
             Handle berbagai jenis kunci dari rumah, motor, sampe mobil. 
-            Mobile service ready, harga friendly, dan dijamin hasil premium! 
-            No cap, fr fr! 💯
+            Mobile service ready, harga friendly, dan dijamin hasil premium! 💯
           </p>
         </div>
       </section>
@@ -197,7 +196,7 @@ function App() {
       <section className="py-20 px-4 bg-gradient-to-b from-black to-gray-900">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-emerald-600">
-            What They Say
+            Reviews Customers
           </h2>
           <div className="relative h-64">
             {testimonials.map((testimonial, index) => (
@@ -265,11 +264,11 @@ function App() {
       <section className="py-20 px-4 bg-gradient-to-b from-gray-900 to-black">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-emerald-600">
-            Find Us
+            Lokasi Kami
           </h2>
           <div className="aspect-w-16 aspect-h-9 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(52,211,153,0.2)]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.6664463317074!2d106.82795931476882!3d-6.175392395527642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5d2e764b12d%3A0x3d2ad6e1e0e9bcc8!2sMonumen%20Nasional!5e0!3m2!1sen!2sid!4v1647095337865!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.757310872387!2d106.9376817!3d-6.3234155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e699300248389c5%3A0x4098febce6b5b9ab!2sDUPLIKAT%20KUNCI!5e0!3m2!1sen!2sid!4v1712952700403!5m2!1sen!2sid"
               width="100%"
               height="450"
               style={{ border: 0 }}
@@ -296,18 +295,37 @@ function App() {
             </a>
           </div>
           <p className="text-gray-400">
-            © 2025 Duplikat Kunci • All rights reserved • Made with 💚
+            © 2025 AR Duplikat Kunci • All rights reserved • Made with 💚
           </p>
         </div>
       </footer>
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/+6281234567890"
+        href="https://wa.me/+6285814766454"
         className="fixed bottom-6 right-6 bg-gradient-to-r from-green-400 to-emerald-600 p-4 rounded-full shadow-lg hover:shadow-[0_0_30px_rgba(52,211,153,0.5)] transition-all transform hover:scale-105"
       >
         <WhatsappIcon className="w-6 h-6" />
       </a>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div className="flex flex-wrap justify-center p-4">
+      <div className="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
+          <h2 className="text-xl md:text-2xl font-bold">Title</h2>
+          <p className="text-sm md:text-base">Some content here...</p>
+        </div>
+      </div>
+      <div className="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
+          <h2 className="text-xl md:text-2xl font-bold">Title 2</h2>
+          <p className="text-sm md:text-base">More content here...</p>
+        </div>
+      </div>
     </div>
   );
 }
