@@ -116,7 +116,6 @@ function App() {
   }, []);
 
   return (
-  <div className="w-full overflow-x-hidden">
     <div className="min-h-screen bg-black text-white">
       {/* Hero Section */}
       <div className="relative h-screen">
@@ -153,7 +152,6 @@ function App() {
           </a>
         </div>
       </div>
-     </div>
 
       {/* About Section */}
       <section className="py-20 px-4">
