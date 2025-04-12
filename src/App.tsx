@@ -17,19 +17,19 @@ import {
 
 const slides = [
   {
-    url: "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?auto=format&fit=crop&w=2000&q=80",
+    url: "https://i.ibb.co.com/Cpqr65cB/gambar1.jpg",
     title: "Kunci hIlang? No Worries!",
     subtitle: "Duplikat kunci instan, ga pake lama 🔑✨"
   },
   {
-    url: "https://images.unsplash.com/photo-1581795669633-91ef7c9699a8?auto=format&fit=crop&w=2000&q=80",
+    url: "https://i.ibb.co.com/Q3kn0WLQ/gambar2.jpg",
     title: "Mobile Service 24/7",
     subtitle: "Kapanpun dimanapun, kita siap gas! 🏃‍♂️💨"
   },
   {
-    url: "https://images.unsplash.com/photo-1562664377-709f2c337eb2?auto=format&fit=crop&w=2000&q=80",
+    url: "https://i.ibb.co.com/8LgB2YXR/gambar3.jpg",
     title: "Trusted & Reliable",
-    subtitle: "Udah ribuan customer happy with our service! 💯"
+    subtitle: "Udah ratusan customer happy with our service! 💯"
   }
 ];
 
@@ -48,7 +48,7 @@ const testimonials = [
   },
   {
     name: "Firsky Ogest",
-    text: "Pengerjaan cepat dan rapih...dan juga bisa datang ke tempat lokasi,fast respon...pokoknya bagus banget deh 💯",
+    text: "Pengerjaan cepat dan rapih... dan juga bisa datang ke tempat lokasi, fast respon... pokoknya bagus banget deh 💯",
     rating: 5,
     tag: "Verified Customer ✓"
   }
@@ -167,7 +167,7 @@ function App() {
           <p className="text-xl text-gray-300 leading-relaxed">
             Kita tuh spesialis duplikasi kunci yang udah trusted banget! 
             Handle berbagai jenis kunci dari rumah, motor, sampe mobil. 
-            Mobile service ready, harga friendly, dan dijamin hasil premium! 💯
+            Panggilan ready, harga friendly, dan dijamin hasil premium! 💯
           </p>
         </div>
       </section>
@@ -286,13 +286,13 @@ function App() {
       <footer className="py-12 px-4">
         <div className="max-w-6xl mx-auto text-center">
           <div className="flex justify-center space-x-6 mb-8">
-            <a href="tel:+6281234567890" className="hover:text-green-400 transition-colors">
+            <a href="tel:+6285814766454" className="hover:text-green-400 transition-colors">
               <Phone className="w-6 h-6" />
             </a>
-            <a href="https://wa.me/+6281234567890" className="hover:text-green-400 transition-colors">
+            <a href="https://wa.me/+6285814766454" className="hover:text-green-400 transition-colors">
               <MessageCircle className="w-6 h-6" />
             </a>
-            <a href="#" className="hover:text-green-400 transition-colors">
+            <a href="https://maps.app.goo.gl/e5af6PMGS3TNFBbH6" className="hover:text-green-400 transition-colors">
               <MapPin className="w-6 h-6" />
             </a>
           </div>
