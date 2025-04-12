@@ -18,7 +18,7 @@ import {
 const slides = [
   {
     url: "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?auto=format&fit=crop&w=2000&q=80",
-    title: "Kunci hIlang? No Worries!",
+    title: "Kunci Ilang? No Worries!",
     subtitle: "Duplikat kunci instan, ga pake lama 🔑✨"
   },
   {
