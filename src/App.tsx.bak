@@ -311,4 +311,23 @@ function App() {
   );
 }
 
+function App() {
+  return (
+    <div className="flex flex-wrap justify-center p-4">
+      <div className="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
+          <h2 className="text-xl md:text-2xl font-bold">Title</h2>
+          <p className="text-sm md:text-base">Some content here...</p>
+        </div>
+      </div>
+      <div className="w-full md:w-1/2 lg:w-1/3 p-4">
+        <div className="bg-gray-200 p-6 rounded-lg shadow-lg">
+          <h2 className="text-xl md:text-2xl font-bold">Title 2</h2>
+          <p className="text-sm md:text-base">More content here...</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default App;
