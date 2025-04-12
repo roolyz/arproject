@@ -299,15 +299,6 @@ function App() {
           </p>
         </div>
       </footer>
-
-      {/* Floating WhatsApp Button */}
-      <a
-  href="https://wa.me/+6285814766454"
-  className="fixed bottom-4 right-4 sm:bottom-6 sm:right-6 z-50 bg-gradient-to-r from-green-400 to-emerald-600 p-3 sm:p-4 rounded-full shadow-lg hover:shadow-[0_0_30px_rgba(52,211,153,0.5)] transition-transform hover:scale-105"
->
-  <WhatsappIcon className="w-5 h-5 sm:w-6 sm:h-6 text-white" />
-</a>
-    </div>
   );
 }
 
